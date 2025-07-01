@@ -13,7 +13,6 @@ import genericUtilities.SeleniumUtility;
 import objectRepository.CartPage;
 import objectRepository.InventoryItemPage;
 import objectRepository.InventoryPage;
-import objectRepository.LoginPage;
 
 @Listeners(genericUtilities.ListenerImplemetationUtility.class)
 public class Login extends BaseClass
@@ -44,7 +43,7 @@ public class Login extends BaseClass
 	}
 
 	
-     @Test
+     @Test(groups = "RegressionSuite")
      public void sample()
      {
     	// Assert.fail();
