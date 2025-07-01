@@ -44,7 +44,7 @@ public class Login extends BaseClass
 	}
 
 	
-     @Test(groups = "RegressionSuite")
+     @Test
      public void sample()
      {
     	// Assert.fail();
